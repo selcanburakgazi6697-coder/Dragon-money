@@ -3,21 +3,21 @@
 # Драгон мани: как зайти на сайт сегодня и попасть в личный кабинет
 
 <p>
-  <a href="https://luckyspin53.com/c71f60ab1?btag=dragon"
+  <a href="https://luckyspin54.com/c71f60ab1?btag=dragon"
      style="display:inline-block; padding:10px 16px; background:#1677ff; color:#fff; text-decoration:none; font-weight:700; border-radius:0; letter-spacing:1px;">
     Войти в Dragon Money
   </a>
 </p>
 
 <p>
-  <a href="https://luckyspin53.com/c71f60ab1?btag=dragon"
+  <a href="https://luckyspin54.com/c71f60ab1?btag=dragon"
      style="display:inline-block; padding:10px 16px; background:#1677ff; color:#fff; text-decoration:none; font-weight:700; border-radius:0; letter-spacing:1px;">
     Войти в Dragon Money
   </a>
 </p>
 
 <p>
-  <a href="https://luckyspin53.com/c71f60ab1?btag=dragon"
+  <a href="https://luckyspin54.com/c71f60ab1?btag=dragon"
      style="display:inline-block; padding:10px 16px; background:#1677ff; color:#fff; text-decoration:none; font-weight:700; border-radius:0; letter-spacing:1px;">
     Войти в Dragon Money
   </a>
@@ -29,8 +29,8 @@
 
 | Статус | Ссылка |
 |--------|--------|
-| ✅ | [Рабочее зеркало Драгон мани 2026](https://luckyspin53.com/c71f60ab1?btag=dragon) |
-| ✅ | [Создать аккаунт в Dragon Money](https://luckyspin53.com/c71f60ab1?btag=dragon) |
+| ✅ | [Рабочее зеркало Драгон мани 2026](https://luckyspin54.com/c71f60ab1?btag=dragon) |
+| ✅ | [Создать аккаунт в Dragon Money](https://luckyspin54.com/c71f60ab1?btag=dragon) |
 
 **Dragon Money** — игровая платформа, набравшая популярность среди русскоязычных пользователей благодаря разнообразному выбору слотов, выгодным акциям и простому управлению.
 
@@ -65,7 +65,7 @@
 
 Если основной домен заблокирован провайдером, достаточно перейти по **зеркальной ссылке** — она открывает полностью рабочую копию сайта, и заводить новый аккаунт не нужно.
 
-✅ [Перейти и зарегистрироваться](https://luckyspin53.com/c71f60ab1?btag=dragon)
+✅ [Перейти и зарегистрироваться](https://luckyspin54.com/c71f60ab1?btag=dragon)
 
 ---
 
@@ -146,7 +146,7 @@
 
 Запросы на вывод рассматриваются оперативно: большинство платёжных систем зачисляют средства в течение нескольких часов. Верификация личности проводится однократно — при первом крупном выводе. Пополнение счёта производится без дополнительных комиссий.
 
-✅ [Открыть сайт и пополнить счёт](https://luckyspin53.com/c71f60ab1?btag=dragon)
+✅ [Открыть сайт и пополнить счёт](https://luckyspin54.com/c71f60ab1?btag=dragon)
 
 ---
 
@@ -178,7 +178,7 @@
 
 Данные пользователей хранятся конфиденциально и не раскрываются сторонним организациям.
 
-✅ [Перейти на официальный сайт](https://luckyspin53.com/c71f60ab1?btag=dragon)
+✅ [Перейти на официальный сайт](https://luckyspin54.com/c71f60ab1?btag=dragon)
 
 ---
 
