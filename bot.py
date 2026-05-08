@@ -2,7 +2,7 @@ import os
 import telebot
 
 TOKEN = os.environ.get("TOKEN")
-GAME = "dragonlucky"
+GAME = "dragonslot"
 GAME_URL = "https://dragonmoney.pages.dev"
 
 bot = telebot.TeleBot(TOKEN)
