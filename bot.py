@@ -8,7 +8,7 @@ GAME_URL = "https://dragonmoney.pages.dev"
 
 STATS_URL = "https://dragon-stats.selcanburakgazi6697.workers.dev"
 STATS_KEY = "dragon2026stats"
-ADMIN_IDS = [YOUR_TELEGRAM_ID]  # замени на свой ID
+ADMIN_IDS = [8101681923]
 
 bot = telebot.TeleBot(TOKEN)
 
