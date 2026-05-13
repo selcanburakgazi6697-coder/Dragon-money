@@ -12,18 +12,32 @@ ADMIN_IDS = [8101681923]
 
 bot = telebot.TeleBot(TOKEN)
 
-@bot.message_handler(commands=['start'])
-def send_welcome(message):
+ANIMATION_FILE_ID = None
+
+def get_markup():
     markup = InlineKeyboardMarkup()
     markup.add(InlineKeyboardButton(
         "🎰 Играть в Dragon Lucky Spin",
         web_app=WebAppInfo(url=GAME_URL)
     ))
-    bot.send_message(
-        message.chat.id,
-        "🐉 Добро пожаловать в Dragon Lucky Spin!\n\nНажми кнопку и испытай удачу 👇",
-        reply_markup=markup
-    )
+    return markup
+
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    global ANIMATION_FILE_ID
+    caption = "🐉 Добро пожаловать в Dragon Lucky Spin!\n\nНажми кнопку и испытай удачу 👇"
+    markup = get_markup()
+
+    if ANIMATION_FILE_ID:
+        bot.send_animation(message.chat.id, ANIMATION_FILE_ID, caption=caption, reply_markup=markup)
+    else:
+        video_path = os.path.join(os.path.dirname(__file__), "dragon.mp4")
+        if os.path.exists(video_path):
+            with open(video_path, "rb") as f:
+                sent = bot.send_animation(message.chat.id, f, caption=caption, reply_markup=markup)
+                ANIMATION_FILE_ID = sent.animation.file_id
+        else:
+            bot.send_message(message.chat.id, caption, reply_markup=markup)
 
 @bot.message_handler(commands=['play', 'game', 'spin'])
 def send_game(message):
