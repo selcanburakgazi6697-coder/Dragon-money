@@ -14,6 +14,12 @@ bot = telebot.TeleBot(TOKEN)
 
 ANIMATION_FILE_ID = None
 
+def ping(event, uid="anon"):
+    try:
+        requests.get(f"{STATS_URL}/ping", params={"event": event, "uid": uid}, timeout=3)
+    except:
+        pass
+
 def get_markup():
     markup = InlineKeyboardMarkup()
     markup.add(InlineKeyboardButton(
@@ -25,6 +31,9 @@ def get_markup():
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     global ANIMATION_FILE_ID
+    uid = str(message.from_user.id)
+    ping("start", uid)
+
     caption = "🐉 Добро пожаловать в Dragon Lucky Spin!\n\nНажми кнопку и испытай удачу 👇"
     markup = get_markup()
 
@@ -57,13 +66,16 @@ def send_stats(message):
         text = (
             f"📊 Dragon Lucky Spin — Статистика\n\n"
             f"Всего:\n"
+            f"  🚀 /start: {d['total']['starts']}\n"
             f"  👁 Визитов: {d['total']['visits']}\n"
             f"  🎰 Спинов: {d['total']['spins']}\n"
             f"  🔗 Кликов: {d['total']['clicks']}\n\n"
             f"Уникальных:\n"
+            f"  🚀 /start: {d['unique']['starts']}\n"
             f"  👤 Посетителей: {d['unique']['visits']}\n"
             f"  🔗 Перешли: {d['unique']['clicks']}\n\n"
             f"Сегодня:\n"
+            f"  🚀 /start: {d['today']['starts']}\n"
             f"  👁 Визитов: {d['today']['visits']}\n"
             f"  🎰 Спинов: {d['today']['spins']}\n"
             f"  🔗 Кликов: {d['today']['clicks']}\n\n"
