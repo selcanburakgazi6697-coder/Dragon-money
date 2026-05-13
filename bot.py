@@ -1,18 +1,31 @@
 import os
 import requests
 import telebot
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 
 TOKEN = os.environ.get("TOKEN")
 GAME = "dragonslot"
 GAME_URL = "https://dragonmoney.pages.dev"
-
 STATS_URL = "https://dragon-stats.selcanburakgazi6697.workers.dev"
 STATS_KEY = "dragon2026stats"
 ADMIN_IDS = [8101681923]
 
 bot = telebot.TeleBot(TOKEN)
 
-@bot.message_handler(commands=['start', 'play', 'game', 'spin'])
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    markup = InlineKeyboardMarkup()
+    markup.add(InlineKeyboardButton(
+        "🎰 Играть в Dragon Lucky Spin",
+        web_app=WebAppInfo(url=GAME_URL)
+    ))
+    bot.send_message(
+        message.chat.id,
+        "🐉 Добро пожаловать в Dragon Lucky Spin!\n\nНажми кнопку и испытай удачу 👇",
+        reply_markup=markup
+    )
+
+@bot.message_handler(commands=['play', 'game', 'spin'])
 def send_game(message):
     bot.send_game(message.chat.id, GAME)
 
